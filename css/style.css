@@ -1,0 +1,323 @@
+/* =======================Re-use====================== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+section{
+    padding: 0px 100px;
+}
+/* ======================= Navigation Section ====================== */
+.mainmenu ul {list-style-type: none;}
+
+.mainmenu ul li {
+    display: inline-block;
+    float: right;
+}
+.mainmenu::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.mainmenu ul li a {
+    color: #3C3C3C;
+    text-decoration: none;
+    margin-left: 54px;
+    display: block;
+    padding: 50px 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* ======================= Head Section====================== */
+.head-section{
+    margin-top: 30px;
+}
+.left-head-section{
+    float: left;
+    width: 40%;
+}
+.right-head-section{
+    float: right;
+    width: 50%;
+}
+.right-head-section img{
+    width: 100%;
+}
+.head-section::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.left-head-section h1 {
+    margin-top: 100px;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.left-head-section h1 span {
+    display: block;
+    color: #FF8367;
+}
+
+.left-head-section p {
+    line-height: 1.5;
+    color: #3E3E3E;
+    margin-bottom: 30px;
+}
+
+.link-btn {
+    background-image: linear-gradient(#F46060,#FF8063);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 30px;
+    display: inline-block;
+    border-radius: 8px;
+}
+/* ======================= About Section====================== */
+.about-section{
+    margin-bottom: 80px;
+}
+.about-section::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.left-about-section{
+    float: left;
+    width: 50%;
+}
+.left-about-section img{
+    width: 100%;
+}
+.right-about-section{
+    float: left;
+    width: 50%;
+    padding: 100px;
+}
+.right-about-section h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.right-about-section h4 {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.right-about-section p {
+    color: #3E3E3E;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.link-btn i {
+    margin-right: 10px;
+}
+/* ======================= Service Section====================== */
+.service-section{
+    margin-bottom: 80px;
+}
+.service-text {
+    width: 520px;
+    margin: 50px 0px;
+}
+.service-text h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.service-text p{
+    line-height: 1.5;
+}
+.service-section::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.service-col{
+    width: 23%;
+    float: left;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    min-height: 250px;
+}
+.service-col:not(:last-child){
+    margin-right: 2%;
+}
+.service-col i{
+    font-size: 40px;
+}
+.item{
+    font-size: 25px;
+    margin: 20px 0;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.service-col p{
+    line-height: 1.7;
+}
+.service-col:hover,.service-col:hover .item{
+    background-color: black;
+    color: #ffffffe7;
+}
+
+/* ======================= Project Section====================== */
+.project-area{
+    background-color: #E5E5E5;
+    padding-bottom: 100px;
+}
+.project-area h2{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 60px 0px;
+}
+.project-area h2 span{
+    color: #FF8367;
+}
+.project-col{
+    width: 30%;
+    float: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 17px;
+    box-shadow: 0px 5px 12px 6px #00000026;
+}
+.project-area{
+    content: "";
+    clear: both;
+    display: table;
+}
+.project-col:not(:last-child){
+    margin-right: 5%;
+}
+.project-col img{
+    width: 100%;
+}
+.project-content{
+    margin-top: 14px;
+}
+.project-content h3{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+.project-content p{
+    line-height: 1.5;
+}
+/* ======================= Pricing Section====================== */
+.pricing-section{
+    margin: 100px 0;
+}
+.pricing-section::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.pricing-section h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+}
+.pricing-col{
+    width: 30%;
+    float: left;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    height: 500px;
+}
+.pricing-col:hover{
+    box-shadow: 0px 5px 12px 6px #00000026;
+    border: none;
+}
+.pricing-col:not(:last-child){
+    margin-right: 5%;
+}
+.pricing-col h3{
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+.pricing-col p{
+    line-height: 1.5;
+}
+.support{
+    margin: 16px 0;
+}
+.count{
+    font-weight: 700;
+    color: #3E3E3E;
+}
+.pricing-col .link-btn{
+    margin: 30px 0;
+}
+/* ======================= Chat Section====================== */
+.chat-section{
+    padding: 80px 220px;
+    background-color: #E5E5E5;
+}
+.chat-background{
+    background-image: url(../shapes/Group_33094_1.png);
+    width: 100%;
+    height: 322px;
+    background-size: cover;
+    background-position: center;
+    padding: 133px 80px;
+    border-radius: 30px;
+}
+.chat-section::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.chat-section h1{
+    float: left;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 2px;
+}
+.chat-section a.link-btn{
+    float: right;
+    margin-top: 10px;
+    
+}
+
+/* ======================= Footer Section====================== */
+.footer-section{
+    text-align: center;
+    margin: 80px 0;
+}
+.social-link img{
+    width: 40px;
+    height: 40px;
+}
+.footer-section h2{
+    text-transform: lowercase;
+    font-size: 40px;
+    font-family: Roboto ,sans-serif;
+    margin: 20px 0;
+}
+.footer-section h3{
+    color: #696871;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.social-link ul {
+    list-style-type: none;
+}
+
+.social-link ul li {
+    display: inline-block;
+}
+.social-link ul li a{
+    display: block;
+    margin: 10px;
+}
