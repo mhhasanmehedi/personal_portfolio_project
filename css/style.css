@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Bebas Neue', cursive;
@@ -46,6 +47,7 @@ section{
 .right-head-section{
     float: right;
     width: 50%;
+    padding: 3%;
 }
 .right-head-section img{
     width: 100%;
@@ -63,22 +65,23 @@ section{
 
 .left-head-section h1 span {
     display: block;
-    color: #FF8367;
+    color: #0fe3ff;
 }
 
 .left-head-section p {
     line-height: 1.5;
-    color: #3E3E3E;
+    
     margin-bottom: 30px;
 }
 
 .link-btn {
-    background-image: linear-gradient(#F46060,#FF8063);
+    background-image: linear-gradient(#0fe3ff,#0fe3ff60);
     color: #ffffff;
     text-decoration: none;
     padding: 14px 30px;
     display: inline-block;
     border-radius: 8px;
+    font-weight: bold;
 }
 /* ======================= About Section====================== */
 .about-section{
@@ -92,6 +95,7 @@ section{
 .left-about-section{
     float: left;
     width: 50%;
+    padding: 3%;
 }
 .left-about-section img{
     width: 100%;
@@ -111,61 +115,16 @@ section{
 }
 
 .right-about-section p {
-    color: #3E3E3E;
     line-height: 1.5;
     margin-bottom: 20px;
 }
-.link-btn i {
-    margin-right: 10px;
+.right-about-section .link-btn img{
+    width: 20px;
+    height: 20px;
+    padding-top:5px;
+    margin-right: 5px;
 }
-/* ======================= Service Section====================== */
-.service-section{
-    margin-bottom: 80px;
-}
-.service-text {
-    width: 520px;
-    margin: 50px 0px;
-}
-.service-text h2{
-    font-size: 30px;
-    letter-spacing: 2px;
-    margin-bottom: 15px;
-}
-.service-text p{
-    line-height: 1.5;
-}
-.service-section::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-.service-col{
-    width: 23%;
-    float: left;
-    border: 1px solid #ddd;
-    padding: 15px;
-    text-align: center;
-    min-height: 250px;
-}
-.service-col:not(:last-child){
-    margin-right: 2%;
-}
-.service-col i{
-    font-size: 40px;
-}
-.item{
-    font-size: 25px;
-    margin: 20px 0;
-    text-transform: capitalize;
-    font-family: 'Roboto', sans-serif;
-}
-.service-col p{
-    line-height: 1.7;
-}
-.service-col:hover,.service-col:hover .item{
-    background-color: black;
-    color: #ffffffe7;
-}
+
 
 /* ======================= Project Section====================== */
 .project-area{
@@ -179,7 +138,7 @@ section{
     margin: 60px 0px;
 }
 .project-area h2 span{
-    color: #FF8367;
+    color: #0fe3ff;
 }
 .project-col{
     width: 30%;
@@ -223,6 +182,7 @@ section{
     font-size: 30px;
     letter-spacing: 2px;
     margin-bottom: 60px;
+    text-align: center;
 }
 .pricing-col{
     width: 30%;
@@ -254,7 +214,6 @@ section{
 }
 .count{
     font-weight: 700;
-    color: #3E3E3E;
 }
 .pricing-col .link-btn{
     margin: 30px 0;
@@ -306,7 +265,6 @@ section{
     margin: 20px 0;
 }
 .footer-section h3{
-    color: #696871;
     font-size: 24px;
     letter-spacing: 2px;
 }
