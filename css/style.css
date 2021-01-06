@@ -1,4 +1,5 @@
-/* =======================Re-use====================== */
+/* Re-use */
+
 *{
     padding: 0;
     margin: 0;
@@ -15,12 +16,16 @@ h1,h2,h3,h4,h5,h6{
 section{
     padding: 0px 100px;
 }
-/* ======================= Navigation Section ====================== */
-.mainmenu ul {list-style-type: none;}
 
+
+/*  Navigation Section  */
+
+.mainmenu ul {
+    list-style-type: none;
+    float: right;
+}
 .mainmenu ul li {
     display: inline-block;
-    float: right;
 }
 .mainmenu::after{
     content: "";
@@ -36,7 +41,10 @@ section{
     font-size: 16px;
     font-weight: 600;
 }
-/* ======================= Head Section====================== */
+
+
+/*  Head Section */
+
 .head-section{
     margin-top: 30px;
 }
@@ -62,18 +70,14 @@ section{
     font-size: 60px;
     letter-spacing: 2px;
 }
-
 .left-head-section h1 span {
     display: block;
     color: #0fe3ff;
 }
-
 .left-head-section p {
     line-height: 1.5;
-    
     margin-bottom: 30px;
 }
-
 .link-btn {
     background-image: linear-gradient(#0fe3ff,#0fe3ff60);
     color: #ffffff;
@@ -83,7 +87,10 @@ section{
     border-radius: 8px;
     font-weight: bold;
 }
-/* ======================= About Section====================== */
+
+
+/*  About Section */
+
 .about-section{
     margin-bottom: 80px;
 }
@@ -113,7 +120,6 @@ section{
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
-
 .right-about-section p {
     line-height: 1.5;
     margin-bottom: 20px;
@@ -126,7 +132,8 @@ section{
 }
 
 
-/* ======================= Project Section====================== */
+/*  Project Section */
+
 .project-area{
     background-color: #E5E5E5;
     padding-bottom: 100px;
@@ -169,7 +176,10 @@ section{
 .project-content p{
     line-height: 1.5;
 }
-/* ======================= Pricing Section====================== */
+
+
+/*  Pricing Section */
+
 .pricing-section{
     margin: 100px 0;
 }
@@ -218,7 +228,10 @@ section{
 .pricing-col .link-btn{
     margin: 30px 0;
 }
-/* ======================= Chat Section====================== */
+
+
+/*  Chat Section */
+
 .chat-section{
     padding: 80px 220px;
     background-color: #E5E5E5;
@@ -246,10 +259,11 @@ section{
 .chat-section a.link-btn{
     float: right;
     margin-top: 10px;
-    
 }
 
-/* ======================= Footer Section====================== */
+
+/*  Footer Section */
+
 .footer-section{
     text-align: center;
     margin: 80px 0;
@@ -271,7 +285,6 @@ section{
 .social-link ul {
     list-style-type: none;
 }
-
 .social-link ul li {
     display: inline-block;
 }
